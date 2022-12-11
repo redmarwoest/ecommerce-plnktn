@@ -1,0 +1,119 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 100%;
+  overflow: hidden;
+
+  .cartHeader {
+    display: absolute;
+    img {
+      position: absolute;
+      top: 16px;
+      right: 24px;
+    }
+    @include tablet {
+      // margin-left: 48px;
+      // margin-right: 48px;
+    }
+  }
+}
+
+.cartFull {
+  margin-top: 36px;
+  border-bottom: 2px solid $line-blue-color;
+  padding-bottom: 16px;
+
+  @include tablet {
+    margin-top: 48px;
+  }
+
+  h2 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.cartItems {
+  height: 65vh;
+  overflow-y: auto;
+  ul {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+  }
+}
+
+.cartSummary {
+  flex-shrink: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 24px;
+  @include tablet {
+    padding-bottom: 48px;
+  }
+
+  .cartSummaryContainer {
+    border-top-width: 1px;
+    border-top: 2px solid $line-blue-color;
+
+    ul {
+      padding-top: 0.75rem /* 12px */;
+      padding-bottom: 0.75rem /* 12px */;
+      padding-left: 0px;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.25rem /* 4px */;
+        padding-bottom: 0.25rem /* 4px */;
+      }
+    }
+  }
+
+  .checkoutButton {
+    display: flex;
+    justify-content: end;
+  }
+
+  .cartTotal {
+    display: flex;
+    justify-content: space-between;
+    border-top-width: 1px;
+    padding-top: 0.75rem /* 12px */;
+    padding-bottom: 0.75rem /* 12px */;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.cartEmpty {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid $background-green-color;
+    margin-bottom: 16px;
+
+    img {
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+}

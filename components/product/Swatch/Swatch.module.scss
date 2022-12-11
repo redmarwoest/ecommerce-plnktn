@@ -1,0 +1,38 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  cursor: pointer;
+  padding-left: 2.5rem /* 40px */;
+  padding-right: 2.5rem /* 40px */;
+  line-height: 1.5rem /* 24px */;
+  text-transform: uppercase;
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+  align-items: center;
+  height: 2.5rem /* 48px */;
+  width: 2.5rem /* 48px */;
+  border-radius: 50%;
+  margin-right: 12px;
+  display: inline-flex;
+  justify-content: center;
+
+  padding: 0px;
+  box-sizing: border-box;
+
+  & > span {
+    position: absolute;
+  }
+
+  &:hover {
+  }
+
+  .md {
+    height: 3rem /* 48px */;
+    width: 3rem /* 48px */;
+  }
+
+  .sm {
+    height: 2rem !important;
+    border-radius: 10px;
+  }
+}

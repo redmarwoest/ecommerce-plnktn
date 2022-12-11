@@ -1,0 +1,99 @@
+const SkinHealth = ({ ...props }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="23.975"
+      height="22.897"
+      viewBox="0 0 23.975 22.897"
+    >
+      <defs>
+        <clipPath id="clip-path">
+          <rect
+            id="Rectangle_254"
+            data-name="Rectangle 254"
+            width="23.975"
+            height="22.897"
+            transform="translate(0 0)"
+            fill="none"
+          />
+        </clipPath>
+      </defs>
+      <g id="skin-health" transform="translate(0 0)">
+        <g id="Group_303" data-name="Group 303" clip-path="url(#clip-path)">
+          <path
+            id="Path_150"
+            data-name="Path 150"
+            d="M.687,14.805C1.771,11.9,1.552,8.542,2.931,5.77A9.437,9.437,0,0,1,8.655,1.285a11.48,11.48,0,0,1,6.6-.206A11.206,11.206,0,0,1,22.3,7.7,14.479,14.479,0,0,1,22.382,18"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_151"
+            data-name="Path 151"
+            d="M3.7,17.781a10.1,10.1,0,0,0,1.437-3.63c.31-1.734-.041-2.558.215-3.993A8.022,8.022,0,0,1,7.872,5.8"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_152"
+            data-name="Path 152"
+            d="M11.248,4.206a7.127,7.127,0,0,1,3.807.581,8.052,8.052,0,0,1,2.554,1.986c2.572,3.07,1.677,7.545,1.541,8.177"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_153"
+            data-name="Path 153"
+            d="M6.363,20.467a10.458,10.458,0,0,0,1.509-2.831,10.469,10.469,0,0,0,.574-3.049"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_154"
+            data-name="Path 154"
+            d="M9.667,21.847a16.843,16.843,0,0,0,2.658-10.672"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_155"
+            data-name="Path 155"
+            d="M8.805,11.393a3.382,3.382,0,0,1,5.679-2.5,5.355,5.355,0,0,1,1.669,3.546c.3,3.238-1.248,6.985-2.75,9.77"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+          <path
+            id="Path_156"
+            data-name="Path 156"
+            d="M17.713,20.685a6.457,6.457,0,0,0,.967-2.813"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.375"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export default SkinHealth;

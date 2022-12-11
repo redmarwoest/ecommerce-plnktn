@@ -1,0 +1,36 @@
+$grey-color: #eaeaea;
+$lighter-grey-color: #f4f4f4;
+$light-grey-color: #ebebeb;
+$white-color: #fff;
+$light-green-color: #0a6257;
+$dark-green-color: #09322b;
+$black-color: #000000;
+$light-blue-color: #407086;
+$dark-blue-color: #0d172e;
+$background-blue-color: #f5f8f8;
+$line-blue-color: #dee2e6;
+$background-green-color: #00241e;
+
+@mixin tablet() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin largeDesktop() {
+  @media (min-width: 1650px) {
+    @content;
+  }
+}
+
+@mixin largePhone() {
+  @media (min-height: 800px) {
+    @content;
+  }
+}

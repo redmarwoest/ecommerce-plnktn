@@ -1,0 +1,84 @@
+@import "/styles/Home.module.scss";
+.canvas {
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 72px;
+  max-width: 1600px;
+  width: 95%;
+  height: 88%;
+  border-radius: 6px;
+  background-color: $light-blue-color;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  @include tablet {
+    margin-top: 84px;
+    height: 88%;
+  }
+}
+
+.container {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  padding-top: 80px;
+  @include desktop {
+    flex-direction: row;
+    padding-top: 56px;
+  }
+}
+
+.variety {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  max-width: 300px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: $white-color;
+  }
+
+  button {
+    margin-bottom: 8px;
+  }
+
+  @include desktop {
+    align-items: baseline;
+    text-align: left;
+    padding-left: 84px;
+    width: 30%;
+  }
+}
+
+.productInformationBenefits {
+  display: none;
+  padding-bottom: 8px;
+  @include tablet {
+    display: flex;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    // border: 2px solid $dark-green-color;
+    border-radius: 5px;
+    margin-right: 8px;
+    text-align: center;
+    img {
+      margin: auto;
+      display: block;
+    }
+  }
+}

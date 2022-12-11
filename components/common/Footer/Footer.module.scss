@@ -1,0 +1,256 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  left: 0;
+  bottom: 0;
+
+  background-color: $background-green-color;
+  width: 100%;
+  margin-top: 124px;
+
+  a {
+    font-size: 12px;
+    color: $white-color;
+    font-weight: bold;
+    margin-bottom: 16px;
+    transition: 0.3s;
+    @include tablet {
+      font-size: 14px;
+    }
+    &:hover {
+      transition: 0.3s;
+      opacity: 70%;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    color: $white-color;
+    font-weight: 600;
+    margin-bottom: 16px;
+    transition: 0.3s;
+    @include tablet {
+      font-size: 14px;
+    }
+    &:hover {
+      transition: 0.3s;
+      opacity: 70%;
+    }
+  }
+
+  .strong {
+    margin-bottom: 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    @include desktop {
+      margin-bottom: 48px;
+      font-size: 16px;
+    }
+  }
+
+  h5 {
+    color: $white-color;
+    margin-bottom: 8px;
+  }
+
+  input {
+    padding-left: 8px;
+    background-color: transparent;
+    border: 2px solid $white-color;
+    height: 34px;
+    opacity: 0.9;
+    font-weight: bold;
+    color: $white-color;
+    width: 220px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    &::placeholder {
+      opacity: 0.9;
+      font-weight: bold;
+      color: $white-color;
+    }
+    @include desktop {
+      width: 200px;
+    }
+  }
+
+  hr {
+    width: 100%;
+    border: 1px solid $white-color;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-color: $white-color;
+
+    @include desktop {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.footerContainer {
+  width: 85%;
+  margin: auto;
+  padding-top: 84px;
+  padding-bottom: 84px;
+  max-width: 1100px;
+
+  .footerOne {
+    img {
+      display: none;
+    }
+    @include tablet {
+      .footerOneFlex {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        display: block;
+        margin-right: 16px;
+        animation: rotation 16s infinite linear;
+      }
+      p {
+        margin: 0;
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    button {
+      width: 100%;
+      display: block;
+      @include tablet {
+        height: 60px;
+        width: 200px;
+        font-size: 16px;
+      }
+    }
+  }
+  .footerTwo {
+    @include desktop {
+      display: flex;
+      hr {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        height: 160px;
+        width: 1px;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+    }
+    .footerTwoTwo {
+      @include desktop {
+        width: 220px;
+      }
+    }
+  }
+  .footerTwoOne {
+    @include tablet {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .footerTwoOneOne {
+      display: flex;
+      margin-bottom: 48px;
+      @include tablet {
+        margin-bottom: 0px;
+        width: 100%;
+      }
+      div {
+        width: 50%;
+        @include tablet {
+          width: 100%;
+        }
+      }
+
+      div:nth-child(2) {
+        padding-left: 48px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .footerTwoOneTwo {
+    margin-top: 16px;
+    @include tablet {
+      margin-top: 0px;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      @include tablet {
+        display: block;
+        flex-direction: column;
+      }
+      button {
+        margin-bottom: 8px;
+      }
+    }
+    @include desktop {
+      margin-top: 0px;
+    }
+  }
+
+  .footerThree {
+    p {
+      margin-bottom: 0px;
+      font-size: 12px;
+      @include tablet {
+        width: 50%;
+      }
+      @include desktop {
+        width: 100%;
+      }
+    }
+    div:nth-child(1) {
+      width: 200px;
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+      margin-bottom: 48px;
+      @include tablet {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+      }
+    }
+    div:nth-child(2) {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+
+      p {
+        padding-bottom: 16px;
+      }
+
+      @include tablet {
+        flex-direction: row;
+        align-content: center;
+
+        img {
+          padding-bottom: 0px;
+          padding-right: 16px;
+        }
+      }
+    }
+
+    @include tablet {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,32 @@
+@import "/styles/Home.module.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  max-width: 1300px;
+  height: 90%;
+  max-height: 550px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: $dark-green-color;
+  @include tablet {
+    max-height: 650px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+
+    h3 {
+      width: 90%;
+      max-width: 500px;
+      margin-bottom: 16px;
+    }
+  }
+}

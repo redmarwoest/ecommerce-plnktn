@@ -1,0 +1,76 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  margin-top: 56px;
+  padding-top: 0px !important;
+  margin-left: 24px;
+  margin-right: 24px;
+  @include tablet {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 72px;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+  }
+
+  img {
+    width: 32px;
+    padding-right: 16px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  p {
+    font-family: "modernoFB";
+    color: #fff9ed;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s;
+    margin-bottom: 0;
+
+    &:hover {
+      transition: 0.3s;
+      opacity: 70%;
+      hr {
+        transition: 0.3s;
+        opacity: 70%;
+      }
+    }
+    @include tablet {
+      font-size: 26px;
+    }
+  }
+
+  .closeNavbar {
+    position: absolute;
+    top: 20px;
+  }
+
+  hr {
+    width: 100%;
+    border: 1px solid #fff9ed;
+    background-color: #fff9ed;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      opacity: 70%;
+    }
+
+    @include tablet {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

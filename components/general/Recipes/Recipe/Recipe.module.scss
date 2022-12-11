@@ -1,0 +1,28 @@
+@import "/styles/Home.module.scss";
+
+.recipe {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 30%) !important;
+  text-align: center;
+
+  width: 80%;
+  max-width: 360px;
+
+  @include desktop {
+    left: 300px;
+    transform: translate(-50%, 40%) !important;
+  }
+
+  p {
+    margin-top: 32px;
+    height: 200px;
+    color: white;
+  }
+
+  button {
+    margin: auto;
+  }
+}

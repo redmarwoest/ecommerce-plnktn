@@ -1,0 +1,68 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  position: relative;
+  overflow: hidden;
+  max-height: 100% !important;
+  &:hover {
+    & .productBg:before {
+      transform: scale(0.99);
+    }
+
+    & .productImage {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.productBg {
+  background-color: $background-blue-color;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.productImage {
+  display: block;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.productInfo {
+  button {
+    &:first-child {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+
+    &:last-child {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+  }
+}
+
+.productBenefits {
+  display: flex;
+
+  div {
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: $background-blue-color;
+  }
+}
+// .root:hover .productTitle {
+//   transform: translateY(0);
+// }

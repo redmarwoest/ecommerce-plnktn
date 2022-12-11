@@ -1,0 +1,16 @@
+<svg id="Group_340" data-name="Group 340" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.378" height="24" viewBox="0 0 22.378 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_279" data-name="Rectangle 279" width="22.378" height="24" fill="none" stroke="#00241e" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_339" data-name="Group 339" clip-path="url(#clip-path)">
+    <path id="Path_796" data-name="Path 796" d="M16.081,23.262H6.231c-1.664,0-3.087-1.015-3.163-2.277L1.851.779h18.61L19.244,20.985C19.168,22.247,17.745,23.262,16.081,23.262Z" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.476"/>
+    <line id="Line_75" data-name="Line 75" y2="22.483" transform="translate(11.156 0.779)" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.476"/>
+    <path id="Path_797" data-name="Path 797" d="M11.626,23.244h-.779c-2.062,0-3.787-1.266-3.833-2.843L6.441.728h9.591L15.459,20.4C15.413,21.978,13.688,23.244,11.626,23.244Z" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.457"/>
+    <line id="Line_76" data-name="Line 76" x2="20.902" transform="translate(0.738 0.779)" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.476"/>
+    <line id="Line_77" data-name="Line 77" x2="16.453" transform="translate(2.922 7.047)" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.477"/>
+    <line id="Line_78" data-name="Line 78" x1="16.155" transform="translate(2.937 12.021)" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.476"/>
+    <line id="Line_79" data-name="Line 79" x1="15.273" transform="translate(3.528 16.916)" fill="none" stroke="#00241e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.473"/>
+  </g>
+</svg>

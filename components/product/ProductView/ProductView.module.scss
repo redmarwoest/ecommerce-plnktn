@@ -1,0 +1,157 @@
+@import "/styles/Home.module.scss";
+
+.productDisplay {
+  width: 100%;
+
+  background-color: $background-blue-color;
+  @include desktop {
+    width: 50%;
+    height: 100%;
+    max-height: 880px;
+  }
+}
+.img {
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+.productInformation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+
+  @include desktop {
+    margin-top: 0px;
+  }
+
+  .productInformationContainer {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+  }
+
+  .productInformationBenefits {
+    display: flex;
+    margin-bottom: 16px;
+
+    div {
+      background-color: $background-blue-color;
+      border-radius: 5px;
+      margin-right: 8px;
+      img {
+        padding: 8px;
+      }
+    }
+  }
+
+  .productInformationReviews {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    p {
+      margin-bottom: 0;
+      margin-left: 16px;
+    }
+  }
+
+  .productInformationText {
+    div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+
+      h2 {
+        margin-right: 16px;
+      }
+
+      p {
+        padding: 8px;
+        background-color: $dark-green-color;
+        color: $white-color;
+        border-radius: 5px;
+      }
+    }
+
+    p:nth-child(3) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .productInformationButtons {
+    margin-top: 24px;
+    .firstButton {
+      margin-right: 8px;
+    }
+    .productInformationAdd {
+      display: flex;
+      margin-bottom: 8px;
+    }
+
+    .productInformationCounter {
+      display: flex;
+      button {
+        font-size: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        &:nth-child(1) {
+          border-radius: 5px 0px 0px 5px;
+        }
+
+        &:nth-child(2) {
+          border-radius: 0;
+          padding: 1.5px;
+        }
+
+        &:nth-child(3) {
+          border-radius: 0px 5px 5px 0px;
+        }
+        input {
+          width: 24px;
+          border: none;
+          color: white;
+          background-color: $dark-green-color;
+          font-weight: bold;
+          text-align: center;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          /* display: none; <- Crashes Chrome on hover */
+          -webkit-appearance: none;
+          margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+        }
+
+        input[type="number"] {
+          -moz-appearance: textfield; /* Firefox */
+        }
+      }
+    }
+  }
+
+  @include desktop {
+    width: 50%;
+  }
+}
+
+.productDescription {
+  font-family: "sourceSerifPro";
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.accordion {
+  margin: auto;
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+}

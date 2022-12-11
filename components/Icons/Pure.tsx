@@ -1,0 +1,33 @@
+const Pure = ({ ...props }) => {
+  return (
+    <svg
+      id="pure"
+      xmlns="http://www.w3.org/2000/svg"
+      width="16.027"
+      height="24"
+      viewBox="0 0 16.027 24"
+    >
+      <defs>
+        <clipPath id="clip-path">
+          <rect
+            id="Rectangle_245"
+            data-name="Rectangle 245"
+            width="16.027"
+            height="24"
+            fill="none"
+          />
+        </clipPath>
+      </defs>
+      <g id="Group_294" data-name="Group 294" clip-path="url(#clip-path)">
+        <path
+          id="Path_137"
+          data-name="Path 137"
+          d="M15.883,18.548a8.263,8.263,0,0,1-7.619,5.437A8.25,8.25,0,0,1,.2,19.028C-.535,16.76.733,15.158,4.724,6.8,6.105,3.908,7.181,1.527,7.861,0c.691,1.515,1.784,3.86,3.212,6.688,3.958,7.847,5.453,9.414,4.81,11.86"
+          fill="#fff"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export default Pure;

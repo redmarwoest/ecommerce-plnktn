@@ -1,0 +1,56 @@
+@import "/styles/Home.module.scss";
+.root {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $background-blue-color;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 150px 150px;
+  column-gap: 24px;
+  row-gap: 24px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+
+  @include tablet {
+    grid-template-columns: 200px 200px;
+  }
+
+  @include desktop {
+    grid-template-columns: 150px 150px 150px 150px;
+    column-gap: 6rem;
+    text-align: left;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .gridColumn {
+    width: 150px;
+    margin: auto;
+
+    @include tablet {
+      width: 180px;
+    }
+    div {
+      width: 150px;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      border: solid 2px $dark-green-color;
+      width: 140px;
+      height: 140px;
+      @include tablet {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}

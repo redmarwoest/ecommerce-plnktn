@@ -1,0 +1,61 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: relative;
+  @include desktop {
+    flex-direction: row;
+    height: 100vh;
+  }
+}
+
+.layoutA {
+  width: 100%;
+  height: 100vh;
+  max-height: 900px;
+}
+
+.layoutB {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include desktop {
+    height: 100vh;
+    width: 55%;
+  }
+}
+
+.layoutC {
+  position: relative;
+  @include desktop {
+    max-height: 900px;
+  }
+}
+
+.layoutD {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+
+  @include desktop {
+    display: grid;
+    height: 100vh;
+    width: 45%;
+  }
+}
+
+.bgColorPrimary {
+  background-color: $white-color;
+}
+
+.bgColorSecondary {
+  background-color: $background-blue-color;
+}

@@ -1,0 +1,70 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  button {
+    height: 40px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  gap: 124px;
+
+  button {
+    font-size: 14px;
+  }
+  button:last-child {
+    width: 250px;
+  }
+}
+
+.questionContainer {
+  width: 80%;
+  max-width: 340px;
+  @include tablet {
+    width: 100%;
+    max-width: 512px;
+  }
+}
+
+.backButton {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 1;
+}
+
+.startScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  img {
+    margin-bottom: 16px;
+  }
+  h2 {
+    margin-bottom: 16px;
+  }
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.reactPlayer > video {
+  object-fit: cover;
+}

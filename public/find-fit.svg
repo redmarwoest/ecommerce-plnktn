@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Group_342" data-name="Group 342" transform="translate(-817 -126)">
+    <g id="Ellipse_169" data-name="Ellipse 169" transform="translate(817 126)" fill="#00241e" stroke="#707070" stroke-width="1">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="49.5" fill="none"/>
+    </g>
+    <text id="Your_personal_fit" data-name="Your personal fit" transform="translate(828 151)" fill="#fff" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="19.888" y="15">Your </tspan><tspan x="2.64" y="31">personal </tspan><tspan x="29.376" y="47">fit</tspan></text>
+  </g>
+</svg>

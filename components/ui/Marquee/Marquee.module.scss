@@ -1,0 +1,12 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  background-color: $background-blue-color;
+  //   margin-top: 48px;
+  margin-bottom: 124px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,77 @@
+@import "/styles/Home.module.scss";
+
+.productImage {
+  background-color: $background-blue-color;
+  width: 320px;
+  height: 340px;
+  border-radius: 5px;
+  display: flex;
+  @include tablet {
+    width: 400px;
+    height: 440px;
+  }
+
+  img {
+    margin: auto;
+    transition: 0.5s;
+    @include tablet {
+      width: 360px;
+      height: 360px;
+      &:hover {
+        width: 380px;
+        height: 380px;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.listItems {
+  padding: 0;
+  li {
+    position: relative;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    height: 48px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: $background-blue-color;
+
+    &:hover > img:last-child {
+      margin-right: 6px;
+      transition: 0.2s;
+    }
+
+    img {
+      position: relative;
+      &:nth-child(1) {
+        padding-left: 16px;
+        padding-right: 8px;
+      }
+
+      &:last-child {
+        position: absolute;
+        margin-right: 8px;
+        right: 8px;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+
+.product {
+  position: relative;
+  .productFit {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+
+    @include tablet {
+      left: -48px;
+      top: -48px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

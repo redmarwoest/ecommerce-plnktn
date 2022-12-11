@@ -1,0 +1,71 @@
+const ImmuneSystem = ({ ...props }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="21.534"
+      height="23.909"
+      viewBox="0 0 21.534 23.909"
+    >
+      <defs>
+        <clipPath id="clip-path">
+          <rect
+            id="Rectangle_252"
+            data-name="Rectangle 252"
+            width="21.534"
+            height="23.909"
+            transform="translate(0 0)"
+            fill="none"
+          />
+        </clipPath>
+      </defs>
+      <g id="immune-system" transform="translate(0 0)">
+        <g id="Group_301" data-name="Group 301" clip-path="url(#clip-path)">
+          <path
+            id="Path_148"
+            data-name="Path 148"
+            d="M4.686.954,17,1a2.93,2.93,0,0,0,0,1.166,3.238,3.238,0,0,0,3.549,2.544c.033.777.056,1.894,0,3.235a35.534,35.534,0,0,1-.7,5.867c-1.17,4.839-7.707,8.405-9.113,9.145-1.086-.435-7.042-2.939-9.157-9.145A27.106,27.106,0,0,1,.962,7.64C.934,6.2.99,4.993,1.05,4.146a2.614,2.614,0,0,0,1.445.043A2.9,2.9,0,0,0,4.2,2.723,3.623,3.623,0,0,0,4.686.954Z"
+            fill="none"
+            stroke="#fff"
+            stroke-linejoin="round"
+            stroke-width="1.909"
+          />
+          <ellipse
+            id="Ellipse_168"
+            data-name="Ellipse 168"
+            cx="5.323"
+            cy="5.241"
+            rx="5.323"
+            ry="5.241"
+            transform="translate(5.444 6.367)"
+            fill="none"
+            stroke="#fff"
+            stroke-linejoin="round"
+            stroke-width="1.909"
+          />
+          <line
+            id="Line_71"
+            data-name="Line 71"
+            y2="5.306"
+            transform="translate(10.767 8.955)"
+            fill="none"
+            stroke="#fff"
+            stroke-linejoin="round"
+            stroke-width="1.909"
+          />
+          <line
+            id="Line_72"
+            data-name="Line 72"
+            x1="5.389"
+            transform="translate(8.073 11.608)"
+            fill="none"
+            stroke="#fff"
+            stroke-linejoin="round"
+            stroke-width="1.909"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
+export default ImmuneSystem;

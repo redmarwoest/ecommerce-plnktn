@@ -1,0 +1,107 @@
+@import "./_mixins.module";
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+@font-face {
+  font-family: "modernoFB";
+  src: url("../asset/modernoFB/ModernoFB-bold.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sourceSerifPro";
+  src: url("../asset/sourceSerifPro/SourceSerifPro-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "modernoFB";
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
+  color: $dark-green-color;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  @include desktop {
+    font-size: 22px;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+  color: $white-color;
+  line-height: 32px;
+
+  @include desktop {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  @include desktop {
+    font-size: 20px;
+  }
+}
+
+h5 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 32px;
+  margin: 0;
+}
+
+h6 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+  margin: 0;
+}
+
+a {
+  font-size: 12px;
+  color: $dark-green-color;
+  text-decoration: none;
+  // margin-bottom: 8px;
+  @include desktop {
+    font-size: 14px;
+  }
+}
+
+p {
+  font-weight: medium;
+  font-size: 12px;
+  margin: 0;
+  @include desktop {
+    font-size: 14px;
+  }
+}
+
+hr {
+  border: 0.6px solid $dark-green-color;
+}
+
+li {
+  list-style: none;
+}
+
+.articles {
+  margin-top: 84px;
+}

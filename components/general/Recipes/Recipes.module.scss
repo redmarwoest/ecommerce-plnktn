@@ -1,0 +1,80 @@
+@import "/styles/Home.module.scss";
+
+.root {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  max-width: 1600px;
+  border-top: 2px solid $dark-green-color;
+  border-left: 2px solid $dark-green-color;
+  border-right: 2px solid $dark-green-color;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  transition: 0.3s;
+  &:hover {
+    transition: 0.3s;
+    background-color: $light-green-color;
+    color: $white-color;
+    border-top: 2px solid $white-color;
+  }
+  h4 {
+    width: 100%;
+  }
+}
+
+.brandContainer {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 1600px;
+  margin: auto;
+  @include desktop {
+    flex-direction: row;
+    max-height: 660px;
+  }
+}
+
+.brandContainerGrid {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  button {
+    background-color: #f5f8f8;
+    border: 1px white;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #e4ebeb;
+      transition: 0.3s;
+    }
+
+    .active {
+      background-color: #e4ebeb;
+    }
+  }
+
+  @include desktop {
+    width: 23%;
+    height: 100%;
+    grid-template-columns: auto auto;
+  }
+}
+
+.brandContainerDisplay {
+  width: 100%;
+  height: 80%;
+  background-color: green;
+
+  @include desktop {
+    width: 77%;
+    height: 100%;
+  }
+}
